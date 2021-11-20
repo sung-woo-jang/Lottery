@@ -71,7 +71,7 @@ ol.day-grid li:nth-child(35) {
     align-items: center;
     font-size: calc(16px + (26 - 16) * ((100vw - 300px) / (1600 - 300)));
     justify-content: center;
-    min-height: 10vh;
+    min-height: 6vh;
     text-align: center;
 }
 @media all and (max-width: 800px) {
