@@ -65,7 +65,8 @@ ol.day-grid li:nth-child(35) {
     background-color: #eaeaea;
 } */
 
-.select-num {
+.select-num,
+.text-center {
     display: flex;
     align-items: center;
     font-size: calc(16px + (26 - 16) * ((100vw - 300px) / (1600 - 300)));
