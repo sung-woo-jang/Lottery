@@ -24,10 +24,10 @@ button.addEventListener('click', (e) => {
     for (let i = 0; i < lotto; i++) {
         shuffle();
 
-        const slice = arr.slice(0, 5).sort((a, b) => a - b);
+        const slice = arr.slice(0, 6).sort((a, b) => a - b);
         button.insertAdjacentHTML(
             'afterend',
-            `<div class="select-num">추천번호: ${slice.join(', ')} + ${arr[5]}</div>`
+            `<div class="select-num">추천번호: ${slice.join(', ')}</div>`
         );
     }
 });
